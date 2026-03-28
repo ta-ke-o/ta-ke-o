@@ -1,16 +1,27 @@
-## Hi there 👋
 
-<!--
-**ta-ke-o/ta-ke-o** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Stringfy
 
-Here are some ideas to get you started:
+https://stringfy.pages.dev
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Stringfy is a secure text obfuscation tool designed to protect sensitive information from bots and automated scrapers. It transforms phone numbers, email addresses, and other contact details into Base64-encoded images, ensuring they remain readable to humans while being inaccessible to machines. The app generates lightweight SVG and PNG assets and works entirely without client-side JavaScript, making it fast, reliable, and privacy friendly.
+
+
+## AuthCraft
+
+https://authcraft.pages.dev
+
+AuthCraft is a code first generator for authentication buttons that gives you full control over design and output. It allows you to create polished sign-in buttons for providers like Google, GitHub, and Apple with precise customization. You can export assets as SVG or PNG or directly integrate clean, production ready code into your project. It removes the need to manually recreate provider buttons and ensures consistency across your interface.
+
+
+## SleekDB
+
+https://sleekdb.pages.dev
+
+SleekDB simplifies working with structured data by allowing you to convert multiple CSV files into a single SQLite database instantly. It also supports uploading an existing database and updating it by inserting or replacing records from CSV files. The workflow is streamlined and efficient, making it especially useful for developers and analysts who need quick data transformations without complex setup.
+
+
+## Glyph
+
+https://glyphgallery.pages.dev
+
+Glyph is a modern icon exploration tool built for developers and designers. It provides access to a large collection of over 30,000 scalable vector icons across multiple libraries. The interface offers fast search, real time preview, and easy customization of size and color. Icons can be downloaded instantly as SVG files, making integration into projects seamless and efficient.
