@@ -12,7 +12,7 @@ Built with Astro.
 
 https://authcraft.pages.dev
 
-AuthCraft is a code first generator for authentication buttons that gives you full control over design and output. It allows you to create polished sign-in buttons for providers like Google, GitHub, and Apple with precise customization. You can export assets as SVG or PNG or directly integrate clean, production ready code into your project. It removes the need to manually recreate provider buttons and ensures consistency across your interface.
+AuthCraft is a code first generator for authentication buttons that gives you full control over design and output. It allows you to create polished sign-in buttons for providers like Google, GitHub, and Apple with precise customization. You can export assets as SVG, PNG, or WebP files, or you can integrate clean, production-ready code directly into your project. It removes the need to manually recreate provider buttons and ensures consistency across your interface.
 
 Built with Blazor WebAssembly.
 
