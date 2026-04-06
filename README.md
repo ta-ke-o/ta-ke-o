@@ -1,5 +1,5 @@
 
-# Apps
+# Web Apps
 
 - [Stringfy](#stringfy)
 - [AuthCraft](#authcraft)
