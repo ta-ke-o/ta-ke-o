@@ -1,25 +1,15 @@
 
 # Web Apps
 
-- [Stringfy](#stringfy)
 - [AuthCraft](#authcraft)
-- [SleekDB](#sleekdb)
-- [Glyph](#glyph)
-- [Quantix](#quantix)
 - [Cryptoledger](#cryptoledger)
 - [Cryptosign](#cryptosign)
-
+- [Glyph](#glyph)
+- [Quantix](#quantix)
+- [SleekDB](#sleekdb)
+- [Stringfy](#stringfy)
 
 ---
-
-## Stringfy
-
-https://stringfy.pages.dev
-
-Stringfy is a secure text obfuscation tool designed to protect sensitive information from bots and automated scrapers. It transforms phone numbers, email addresses, and other contact details into Base64-encoded images, ensuring they remain readable to humans while being inaccessible to machines. The app generates lightweight SVG, PNG, and WebP assets and works entirely without client-side JavaScript, making it fast, reliable, and privacy friendly.
-
-Built with Astro.
-
 
 ## AuthCraft
 
@@ -30,13 +20,28 @@ AuthCraft is a code first generator for authentication buttons that gives you fu
 Built with Blazor WebAssembly.
 
 
-## SleekDB
+## Cryptoledger
 
-https://sleekdb.pages.dev
+https://cryptoledger.pages.dev
 
-SleekDB simplifies working with structured data by allowing you to convert multiple CSV files into a single SQLite database instantly. It also supports uploading an existing database and updating it by inserting or replacing records from CSV files. The workflow is streamlined and efficient, making it especially useful for developers and analysts who need quick data transformations without complex setup.
+Cryptoledger is a fully client side, offline first distributed ledger application designed for secure and portable record keeping. It uses modern WebAuthn passkeys so private keys are never exposed to the browser, while cryptographic operations are handled by the operating system and authenticator.
 
-Built with Vite.
+A single JSON file acts as the database, making it easy to transfer, back up, and audit across devices and controlled environments. Each block is re hashed and signature verified locally using Rust WebAssembly, ensuring append only integrity and authenticity without requiring any server or network connection.
+
+The system combines a static frontend with a Rust powered verification layer, allowing the entire ledger to be validated in a self contained environment.
+
+Built with Astro and Rust WebAssembly.
+
+
+## Cryptosign
+
+https://cryptosign.pages.dev
+
+Cryptosign is a client side web application for creating and verifying detached cryptographic signatures without relying on servers or external services. It allows authors to sign files locally using passkeys, while recipients can verify file integrity offline using the original file, signature, and public key.
+
+The app is organized around three main workflows: Key Manager, Signer, and Verifier. In the Key Manager, a user creates a passkey signing identity and extracts the matching public key for sharing with clients. The Signer workflow is designed for detached signatures rather than embedded or wrapped documents. The Verifier checks whether the signature matches the file contents and the declared signing algorithm.
+
+Built with Astro and Rust WebAssembly.
 
 
 ## Glyph
@@ -61,25 +66,19 @@ Quantix also provides sensitivity analysis tools that help you test assumptions 
 Built with Docker Hub container images, FastAPI, Vite, and Cloudflare Tunnel.
 
 
-## Cryptoledger
+## SleekDB
 
-https://cryptoledger.pages.dev
+https://sleekdb.pages.dev
 
-Cryptoledger is a fully client side, offline first distributed ledger application designed for secure and portable record keeping. It uses modern WebAuthn passkeys so private keys are never exposed to the browser, while cryptographic operations are handled by the operating system and authenticator.
+SleekDB simplifies working with structured data by allowing you to convert multiple CSV files into a single SQLite database instantly. It also supports uploading an existing database and updating it by inserting or replacing records from CSV files. The workflow is streamlined and efficient, making it especially useful for developers and analysts who need quick data transformations without complex setup.
 
-A single JSON file acts as the database, making it easy to transfer, back up, and audit across devices and controlled environments. Each block is re hashed and signature verified locally using Rust WebAssembly, ensuring append only integrity and authenticity without requiring any server or network connection.
-
-The system combines a static frontend with a Rust powered verification layer, allowing the entire ledger to be validated in a self contained environment.
-
-Built with Astro and Rust WebAssembly.
+Built with Vite.
 
 
-## Cryptosign
+## Stringfy
 
-https://cryptosign.pages.dev
+https://stringfy.pages.dev
 
-Cryptosign is a client side web application for creating and verifying detached cryptographic signatures without relying on servers or external services. It allows authors to sign files locally using passkeys, while recipients can verify file integrity offline using the original file, signature, and public key.
-
-The app is organized around three main workflows: Key Manager, Signer, and Verifier. In the Key Manager, a user creates a passkey signing identity and extracts the matching public key for sharing with clients. The Signer workflow is designed for detached signatures rather than embedded or wrapped documents. The Verifier checks whether the signature matches the file contents and the declared signing algorithm.
+Stringfy is a secure text obfuscation tool designed to protect sensitive information from bots and automated scrapers. It transforms phone numbers, email addresses, and other contact details into Base64-encoded images, ensuring they remain readable to humans while being inaccessible to machines. The app generates lightweight SVG, PNG, and WebP assets and works entirely without client-side JavaScript, making it fast, reliable, and privacy friendly.
 
 Built with Astro and Rust WebAssembly.
