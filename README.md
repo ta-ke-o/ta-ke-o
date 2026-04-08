@@ -70,9 +70,16 @@ Built with Docker Hub container images, FastAPI, Vite, and Cloudflare Tunnel.
 
 https://sleekdb.pages.dev
 
-SleekDB simplifies working with structured data by allowing you to convert multiple CSV files into a single SQLite database instantly. It also supports uploading an existing database and updating it by inserting or replacing records from CSV files. The workflow is streamlined and efficient, making it especially useful for developers and analysts who need quick data transformations without complex setup.
+SleekDB is a high-performance, client-side data transformation tool designed to convert multiple CSV files into a unified SQLite database instantly. It features a streamlined workflow for uploading existing databases and performantly updating them by inserting or replacing records from local CSV files, making it an essential utility for analysts and developers managing large-scale structural data.
 
-Built with Vite.
+The application utilizes a decoupled, worker-based architecture that offloads the database engine to a dedicated background thread. By leveraging the Origin Private File System (OPFS) and synchronous SQLite WebAssembly, SleekDB achieves near-native I/O speeds and handles massive datasets with zero UI latency. Every operation is processed entirely within the browser, ensuring enterprise-grade privacy and robustness—no data ever leaves the local environment.
+
+- **Cross-Origin Isolation [Active]:** Unlocks high-speed OPFS support via SharedArrayBuffer.
+- **Worker Architecture [Enabled]:** Prevents UI freezing during intensive data operations.
+- **OPFS Storage [Enabled]:** Near-native I/O for large-scale database files.
+- **Privacy First [Local]:** 100% client-side execution; no data ever leaves the device.
+
+Built with Vite and SQLite WebAssembly.
 
 
 ## Stringfy
