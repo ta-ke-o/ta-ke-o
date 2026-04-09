@@ -74,6 +74,8 @@ SleekDB is a high-performance, client-side data transformation tool designed to 
 
 The application utilizes a decoupled, worker-based architecture that offloads the database engine to a dedicated background thread. By leveraging the Origin Private File System (OPFS) and synchronous SQLite WebAssembly, SleekDB achieves near-native I/O speeds and handles massive datasets with zero UI latency. Every operation is processed entirely within the browser, ensuring enterprise-grade privacy and robustness—no data ever leaves the local environment.
 
+SleekDB includes an OPFS Storage Manager that gives users direct visibility into the browser’s local database workspace. It allows them to inspect temporary SQLite files stored in OPFS, download or delete scratch databases, and control automatic cleanup behavior on worker boot through a simple UI preference. This makes the storage layer more transparent and easier to manage while preserving the app’s fully local, privacy-first architecture.
+
 - **Cross-Origin Isolation [Active]:** Unlocks high-speed OPFS support via SharedArrayBuffer.
 - **Worker Architecture [Enabled]:** Prevents UI freezing during intensive data operations.
 - **OPFS Storage [Enabled]:** Near-native I/O for large-scale database files.
