@@ -17,7 +17,7 @@ https://arrowpqt.gitlab.io
 
 Arrow & Parquet is a high-performance, fully client-side data transformation and analysis tool designed to bridge familiar data formats with modern, high-speed querying engines directly in the browser. It allows users to import Arrow, Arrows, CSV, and JSON files, instantly converting them into the highly optimized Parquet format using Rust WebAssembly. Native Parquet files can also be imported directly.
 
-Once the data is securely loaded, an embedded DuckDB WASM engine enables users to perform complex SQL queries, validate data structures, and aggregate large datasets with zero server latency. After filtering and shaping the data, the final output can be exported as either CSV or Parquet files for seamless integration into downstream machine learning workflows or BI tools.
+Once the data is securely loaded, an embedded DuckDB WASM engine enables users to perform complex SQL queries, validate data structures, and aggregate large datasets with zero server latency. The app is integrated with the Monaco editor, which allows users to take advantage of features like Modern SQL IntelliSense. After filtering and shaping the data, the final output can be exported as either CSV or Parquet files for seamless integration into downstream machine learning workflows or BI tools.
 
 To handle robust data operations and large WebAssembly payloads without hitting strict hosting limits, the application is deployed via GitLab Pages and utilizes the browser's Origin Private File System (OPFS). This guarantees high-speed local storage and ensures that all data processing remains strictly local, providing absolute data privacy without ever transmitting sensitive information to an external server.
 
