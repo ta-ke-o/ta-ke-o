@@ -70,7 +70,9 @@ Built with Vite.
 
 https://quantix.red
 
-Quantix is a financial analysis platform that combines a SQLite powered engine with valuation and performance frameworks in a single workflow. It enables you to evaluate fair value, business quality, and market expectations using models such as DCF, dividend based valuation, and implied multiples.
+Quantix is a financial analysis platform that integrates valuation and performance frameworks into a single workflow. It enables you to evaluate fair value, business quality, and market expectations using models such as DCF, dividend based valuation, and implied multiples. DCF and DDM are calculated using my own algorithm.
+
+The app uses an SQLite database, but users need to generate one themselves using financial stock data in QuantConnect.
 
 The platform brings together profitability, capital structure, return metrics, growth trends, cash conversion, and volatility into a unified view. You can analyze leverage, liquidity, shareholder returns, and capital allocation decisions without leaving the core workflow.
 
