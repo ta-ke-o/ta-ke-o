@@ -5,6 +5,7 @@
 - [Cryptoledger](#cryptoledger)
 - [Cryptosign](#cryptosign)
 - [Glyph](#glyph)
+- [Peercipher](#peercipher)
 - [Quantix](#quantix)
 - [SleekDB](#sleekdb)
 - [Stringfy](#stringfy)
@@ -66,6 +67,19 @@ Glyph is a modern icon exploration tool built for developers and designers. It p
 Built with Vite.
 
 
+## Peercipher
+
+https://peercipher.link
+
+Peercipher is a privacy-focused peer-to-peer file transfer app for moving sensitive files through temporary rooms. The backend is used only for short-lived signaling, while files, chat messages, encrypted WebRTC transport, OPFS buffering, and transfer recovery are handled in the browser.
+
+Files are chunked and encrypted with AES-GCM before being sent through WebRTC data channels. WebRTC also provides encrypted transport by design. When a direct peer-to-peer route is unavailable, Coturn can relay encrypted WebRTC packets through the VPS, but it does not receive plaintext files or store relayed streams as replayable file content.
+
+The app is deployed with an Astro frontend on Cloudflare and a FastAPI signaling backend plus Coturn TURN server on a VPS.
+
+Built with Astro, FastAPI, WebRTC, OPFS, Cloudflare Tunnel, Coturn, and Docker images.
+
+
 ## Quantix
 
 https://quantix.red
@@ -78,7 +92,7 @@ The platform brings together profitability, capital structure, return metrics, g
 
 Quantix also provides sensitivity analysis tools that help you test assumptions and explore upside, downside, and risk scenarios. Focused chart clusters make it easy to examine price ranges, margins, growth, solvency, and market behavior in a clear and structured way.
 
-Built with Docker Hub container images, FastAPI, Vite, and Cloudflare Tunnel.
+Built with Docker images, FastAPI, Vite, and Cloudflare Tunnel.
 
 
 ## SleekDB
