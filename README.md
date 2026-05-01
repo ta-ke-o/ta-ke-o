@@ -1,14 +1,14 @@
 # Web Apps
 
-- [Arrow & Parquet](#arrow--parquet)
-- [AuthCraft](#authcraft)
-- [Cryptoledger](#cryptoledger)
-- [Cryptosign](#cryptosign)
-- [Glyph](#glyph)
-- [Peercipher](#peercipher)
-- [Quantix](#quantix)
-- [SleekDB](#sleekdb)
-- [Stringfy](#stringfy)
+- [Arrow & Parquet](#arrow--parquet) ( https://arrowpqt.gitlab.io )
+- [AuthCraft](#authcraft) ( https://authcraft.pages.dev )
+- [Cryptoledger](#cryptoledger) ( https://cryptoledger.pages.dev )
+- [Cryptosign](#cryptosign) ( https://cryptosign.pages.dev )
+- [Glyph](#glyph) ( https://glyphgallery.pages.dev )
+- [Peercipher](#peercipher) ( https://peercipher.link )
+- [Quantix](#quantix) ( https://quantix.red )
+- [SleekDB](#sleekdb) ( https://sleekdb.pages.dev )
+- [Stringfy](#stringfy) ( https://stringfy.pages.dev )
 
 ---
 
