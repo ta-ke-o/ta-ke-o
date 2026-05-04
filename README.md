@@ -9,6 +9,7 @@
 - [Quantix](#quantix) ( https://quantix.red )
 - [SleekDB](#sleekdb) ( https://sleekdb.pages.dev )
 - [Stringfy](#stringfy) ( https://stringfy.pages.dev )
+- [US Yield](#usyield) ( https://usyield.pages.dev )
 
 ---
 
@@ -118,5 +119,18 @@ Built with Vite and SQLite WebAssembly.
 https://stringfy.pages.dev
 
 Stringfy is a secure text obfuscation tool designed to protect sensitive information from bots and automated scrapers. It transforms phone numbers, email addresses, and other contact details into Base64-encoded images, ensuring they remain readable to humans while being inaccessible to machines. The app generates lightweight SVG, PNG, and WebP assets and works entirely without client-side JavaScript, making it fast, reliable, and privacy friendly.
+
+Built with Astro and Rust WebAssembly.
+
+
+## US Yield
+
+https://usyield.pages.dev
+
+US Yield is a treasury yield and estimated total return visualization app for exploring key US Treasury maturities, including 3M, 1Y, 2Y, 5Y, 10Y, and 30Y. It uses FRED constant maturity treasury yield data and generates daily, weekly, and monthly chart series for current yield, implied total return, and rolling CAGR metrics.
+
+The total return indices shown in this app are not official Treasury or market indices. They are estimated constant maturity treasury total return series derived from yield changes and coupon accrual assumptions. The app also calculates rolling 5Y, 10Y, and 30Y CAGR values, plus cumulative CAGR, from those estimated total return indices.
+
+The data pipeline runs through GitHub Actions, which refreshes FRED yield data, generates static JSON chart files, and deploys the app to Cloudflare Pages. Because the chart data is precomputed and served as static JSON, the app does not call the FRED API each time a user opens a chart. This avoids unnecessary API traffic, reduces the risk of excessive requests, and keeps chart loading fast for users.
 
 Built with Astro and Rust WebAssembly.
