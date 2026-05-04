@@ -9,7 +9,7 @@
 - [Quantix](#quantix) ( https://quantix.red )
 - [SleekDB](#sleekdb) ( https://sleekdb.pages.dev )
 - [Stringfy](#stringfy) ( https://stringfy.pages.dev )
-- [US Yield](#usyield) ( https://usyield.pages.dev )
+- [US Yield](#us-yield) ( https://usyield.pages.dev )
 
 ---
 
