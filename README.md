@@ -133,4 +133,4 @@ The total return indices shown in this app are not official Treasury or market i
 
 The data pipeline runs through GitHub Actions, which refreshes FRED yield data, generates static JSON chart files, and deploys the app to Cloudflare Pages. Because the chart data is precomputed and served as static JSON, the app does not call the FRED API each time a user opens a chart. This avoids unnecessary API traffic, reduces the risk of excessive requests, and keeps chart loading fast for users.
 
-Built with Astro and Rust WebAssembly.
+Built with Astro and Rust.
