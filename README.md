@@ -1,15 +1,22 @@
 # Web Apps
 
+[Data Tools]
 - [Arrow & Parquet](#arrow--parquet) ( https://arrowpqt.gitlab.io )
+- [SleekDB](#sleekdb) ( https://sleekdb.pages.dev )
+
+[Developer Tools]
 - [AuthCraft](#authcraft) ( https://authcraft.pages.dev )
+- [Glyph](#glyph) ( https://glyphgallery.pages.dev )
+- [Stringfy](#stringfy) ( https://stringfy.pages.dev )
+
+[Finance]
+- [Quantix](#quantix) ( https://quantix.red )
+- [US Yield](#us-yield) ( https://usyield.pages.dev )
+
+[Security]
 - [Cryptoledger](#cryptoledger) ( https://cryptoledger.pages.dev )
 - [Cryptosign](#cryptosign) ( https://cryptosign.pages.dev )
-- [Glyph](#glyph) ( https://glyphgallery.pages.dev )
 - [Peercipher](#peercipher) ( https://peercipher.link )
-- [Quantix](#quantix) ( https://quantix.red )
-- [SleekDB](#sleekdb) ( https://sleekdb.pages.dev )
-- [Stringfy](#stringfy) ( https://stringfy.pages.dev )
-- [US Yield](#us-yield) ( https://usyield.pages.dev )
 
 ---
 
