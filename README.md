@@ -10,6 +10,7 @@
 - [Stringfy](#stringfy) ( https://stringfy.pages.dev )
 
 [Finance]
+- [Mooquant](#mooquant) ( https://github.com/ta-ke-o/mooquant )
 - [Quantix](#quantix) ( https://quantix.red )
 - [US Yield](#us-yield) ( https://usyield.pages.dev )
 
@@ -86,6 +87,19 @@ Files are chunked and encrypted with AES-GCM before being sent through WebRTC da
 The app is deployed with an Astro frontend on Cloudflare and a FastAPI signaling backend plus Coturn TURN server on a VPS.
 
 Built with Astro, FastAPI, WebRTC, OPFS, Cloudflare Tunnel, Coturn, and Docker images.
+
+
+## Mooquant
+
+https://github.com/ta-ke-o/mooquant
+
+Mooquant is a local-first trading analytics dashboard for monitoring positions, pending orders, historical orders, funds, watchlists, quotes, and charts through a desktop-style interface. It integrates with the Moomoo OpenAPI SDK and is designed for self-hosted local trading analytics, experimentation, strategy testing, and bot execution workflows.
+
+The app combines real-time dashboard views with charting, a historical candle downloader, a watchlist manager, a strategy tester, and bot execution logs. Users can subscribe to market data through Moomoo OpenD, store time-series data locally in QuestDB, and run strategy bots in demo or live modes from the UI or CLI. QuestDB is also used to create multi-timeframe chart tables from base candle subscriptions through materialized views, reducing the amount of market-data subscription quota required for real-time chart workflows.
+
+Mooquant uses Tauri as the desktop shell and React/Vite as the frontend, while the FastAPI backend remains a normal Python service that runs separately from the desktop shell. The project is intended for local development, self-hosted desktop usage, and personal trading research rather than as a packaged production trading product.
+
+Built with Tauri, Vite, FastAPI, QuestDB, Python, and the Moomoo OpenAPI SDK.
 
 
 ## Quantix
