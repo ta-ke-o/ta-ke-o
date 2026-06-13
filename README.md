@@ -1,3 +1,8 @@
+# Desktop Apps
+
+[Finance]
+- [Mooquant](#mooquant) ( https://github.com/ta-ke-o/mooquant )
+
 # Web Apps
 
 [Data Tools]
@@ -10,7 +15,6 @@
 - [Stringfy](#stringfy) ( https://stringfy.pages.dev )
 
 [Finance]
-- [Mooquant](#mooquant) ( https://github.com/ta-ke-o/mooquant )
 - [Quantix](#quantix) ( https://quantix.red )
 - [US Yield](#us-yield) ( https://usyield.pages.dev )
 
