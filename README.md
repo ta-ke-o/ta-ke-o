@@ -15,7 +15,7 @@
 - [Stringfy](#stringfy) ( https://stringfy.pages.dev )
 
 [Finance]
-- [Quantix](#quantix) ( https://quantix.red )
+- [Quantix](#quantix)
 - [US Yield](#us-yield) ( https://usyield.pages.dev )
 
 [Security]
@@ -108,7 +108,7 @@ Built with Tauri, Vite, FastAPI, QuestDB, Python, and the Moomoo OpenAPI SDK.
 
 ## Quantix
 
-https://quantix.red
+https://quantix.red (I will be closing the website as a paid plan is now required to use the QuantConnect Object Store. )
 
 Quantix is a financial analysis platform that integrates valuation and performance frameworks into a single workflow. It enables you to evaluate fair value, business quality, and market expectations using models such as DCF, dividend based valuation, and implied multiples. DCF and DDM are calculated using my own algorithm.
 
